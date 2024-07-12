@@ -2,7 +2,7 @@
 
 ## TODO
 
-- [ ] Make it deploy (vercel)
+- [x] Make it deploy (vercel)
 - [ ] Scaffold basic ui with mock data
 - [ ] Actually set up a database (vercel postgres)
 - [ ] Attach database to UI
@@ -13,3 +13,7 @@
 - [ ] Delete button (w/ Server Actions)
 - [ ] Analytics (posthog)
 - [ ] Ratelimiting (upstash)
+
+## Uploading images
+
+I am using uploadthing to not care a lot about bandwidth
