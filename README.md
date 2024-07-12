@@ -3,7 +3,8 @@
 ## TODO
 
 - [x] Make it deploy (vercel)
-- [ ] Scaffold basic ui with mock data
+- [x] Scaffold basic ui with mock data
+- [ ] Tidy up build process
 - [ ] Actually set up a database (vercel postgres)
 - [ ] Attach database to UI
 - [ ] Add authentication (w/ clerk)
@@ -17,3 +18,8 @@
 ## Uploading images
 
 I am using uploadthing to not care a lot about bandwidth
+
+
+## copilot
+
+Switch to supermaven when copilot is done.
