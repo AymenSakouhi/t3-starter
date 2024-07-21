@@ -18,7 +18,7 @@ export const TopNav = () => {
             onClientUploadComplete={() => {
               router.refresh();
             }}
-          /> 
+          />
           <UserButton />
         </SignedIn>
       </div>
