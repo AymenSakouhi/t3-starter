@@ -2,7 +2,6 @@ import "~/styles/globals.css";
 
 import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
-import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Create T3 App",
@@ -24,6 +23,11 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
+      <head>
+        <title>Hello world</title>
+        <meta name="description" content={"A test T3 app"} />
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className="flex flex-col gap-4">
         <TopNav />
         {children}

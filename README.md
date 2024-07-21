@@ -5,7 +5,7 @@
 - [x] Make it deploy (vercel)
 - [x] Scaffold basic ui with mock data
 - [x] Tidy up build process
-- [ ] Actually set up a database (vercel postgres)
+- [x] Actually set up a database (vercel postgres)
 - [ ] Attach database to UI
 - [ ] Add authentication (w/ clerk)
 - [ ] Add image upload
@@ -22,3 +22,5 @@ I am using uploadthing to not care a lot about bandwidth
 ## copilot
 
 Switch to supermaven when copilot is done.
+
+continue at https://youtu.be/d5x0JCZbAJs?si=FZjdCHpsebgfnSer&t=2232
